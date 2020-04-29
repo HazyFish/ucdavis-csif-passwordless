@@ -2,7 +2,7 @@
 Setup passwordless login to CSIF using SSH Key Authentication and SSH Config. 
 
 Outcome: 
-- Be able to connect to CSIF by simply using command `ssh csif`!
+- Be able to connect to CSIF by simply using command `ssh csif`
 
 What you need:
 - [VS Code](https://code.visualstudio.com/)
