@@ -1,6 +1,9 @@
 # Passwordless Login to CSIF
 Setup passwordless login to CSIF using SSH Key Authentication and SSH Config. 
 
+Outcome: 
+- Be able to connect to CSIF by simply using command `ssh csif`!
+
 What you need:
 - [VS Code](https://code.visualstudio.com/)
 - VS Code Extension **Remote - SSH**
@@ -58,3 +61,8 @@ Jump to:
 - Return to **Terminal** and run command `ssh csif` to connect to a CSIF computer passwordlessly
   - If you are still prompted for entering a password, your SSH Key Authentication is not set up correctly
   - You can connect to CSIF in this passwordless way on your computer from now on!
+
+ ## Give some Feedback
+- Give a star to this if you enjoy it!
+- Open up an issue or pull request to report typos, problems, or anything that can help make this better
+- Follow me on GitHub!
