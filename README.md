@@ -1,6 +1,10 @@
 # Passwordless Login to CSIF
 Setup passwordless login to CSIF using SSH Key Authentication and SSH Config. 
 
+What you need:
+- [VS Code](https://code.visualstudio.com/)
+- VS Code Extension **Remote - SSH**
+
 Jump to: 
 - [Windows 10 (version 1803 or later)](#windows-10-version-1803-or-later)
 - [Windows (earlier versions)](#windows-earlier-versions)
@@ -25,7 +29,6 @@ Jump to:
         IdentityFile ~/.ssh/id_rsa
     ```
 - Return to **Windows PowerShell** and run command `ssh csif` to connect to a CSIF computer passwordlessly
-  - This command tests if everything is configured successfully
   - If you are still prompted for entering a password, your SSH Key Authentication is not set up correctly
   - You can connect to CSIF in this passwordless way on your computer from now on!
   
