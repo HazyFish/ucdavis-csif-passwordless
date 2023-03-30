@@ -10,7 +10,7 @@ What you need:
 
 ### For Windows
 
-- Open **Windows PowerShell** (Keyboard Shortcut: **Win+X** -> Windows PowerShell)
+- Open **Windows Powershell**
 - Run command `ssh-keygen`
   - You don't need to (of course you can) change the default location or set a password for the key, so press enter directly when you see any prompts
   - This command generates a pair of public and private key used in SSH Key Authentication
