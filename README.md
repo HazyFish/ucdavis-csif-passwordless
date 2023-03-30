@@ -8,12 +8,7 @@ What you need:
 - [VS Code](https://code.visualstudio.com/)
 - VS Code Extension **Remote - SSH**
 
-Jump to: 
-- [Windows 10 (version 1803 or later)](#windows-10-version-1803-or-later)
-- [Windows (earlier versions)](#windows-earlier-versions)
-- [macOS & Linux](#macos--linux)
-
-### Windows 10 (version 1803 or later)
+### For Windows
 
 - Open **Windows PowerShell** (Keyboard Shortcut: **Win+X** -> Windows PowerShell)
 - Run command `ssh-keygen`
@@ -34,13 +29,8 @@ Jump to:
 - Return to **Windows PowerShell** and run command `ssh csif` to connect to a CSIF computer passwordlessly
   - If you are still prompted for entering a password, your SSH Key Authentication is not set up correctly
   - You can connect to CSIF in this passwordless way on your computer from now on!
-  
-### Windows (earlier versions)
 
-- If you are using Windows 10 version 1709 (Fall Creators Update), follow [How to Enable and Use Windows 10’s New Built-in SSH Commands](https://www.howtogeek.com/336775/how-to-enable-and-use-windows-10s-built-in-ssh-commands/) and then follow the instructions in [the previous section](#windows-10-version-1803-or-later)
-- If you are using an even older version of Windows, figure out how to run SSH commands by yourself and then follow the instructions in [the previous section](#windows-10-version-1803-or-later)
-
-### macOS & Linux
+### For macOS & Linux
 
 - Open **Terminal**
 - Run command `ssh-keygen`
